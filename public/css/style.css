@@ -1,0 +1,11 @@
+body{ font: normal 12px/16px arial, sans-serif; background-image: url('/images/fabric_of_squares_gray.png');}
+#container{ 
+    width: 1000px; margin: 0 auto; background-color: white; box-shadow: 0px 0px 15px #222222;
+    overflow: hidden; padding: 2%; border-radius: 10px;
+}
+header, nav{ float:left; width: 100%;}
+nav ul li{ display: inline;}
+section article{ float: left; width: 80%;}
+input.textField{ border-radius: 5px; }
+
+h1{}

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+    <link href="/css/style.css" rel="stylesheet">
+    <body>
+        <div id="container">
+            <header>
+                <h1><?php echo $this->translate('text_header'); ?></h1>
+            </header>
+            <nav>
+                <?php echo $this->navigation()->menu(); ?>
+            </nav>
+            <section>
+                <article>
+                    <?php echo $this->layout()->content; ?>
+                </article>
+            </section>
+        </div>
+    </body>
+</html>

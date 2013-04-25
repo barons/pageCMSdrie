@@ -1,0 +1,277 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Zend Framework Extras API Documentation</title><meta xmlns="" http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link xmlns="" rel="stylesheet" href="../css/template.css" type="text/css">
+<script xmlns="" type="text/javascript" src="../js/jquery-1.4.2.min.js"></script><script xmlns="" type="text/javascript" src="../js/jquery.tools.min.js"></script><script xmlns="" type="text/javascript" src="../js/jquery-ui-1.8.2.custom.min.js"></script><script xmlns="" type="text/javascript" src="../js/template.js"></script></head><body><div xmlns="" id="content">
+<h1 xmlns:dbx="http://phpdoc.org/xsl/functions" class="file">JQuery/View/Helper/JQuery.php</h1>
+<div xmlns:dbx="http://phpdoc.org/xsl/functions" id="file-nav-box">
+<div id="file-nav-options">
+              Show:
+              <img src="../images/icons/visibility_public.png" id="show-public"><img src="../images/icons/visibility_protected.png" id="show-protected"><img src="../images/icons/visibility_private.png" id="show-private"><span class="attribute" id="show-inherited">inherited</span>
+</div>
+<div id="file-nav-container">
+<ul id="file-nav"><li>
+<a href="#classes"><img src="../images/icons/class.png" height="14">
+                          Classes
+                      </a><ul><li><a href="#%5CZendX_JQuery_View_Helper_JQuery">\ZendX_JQuery_View_Helper_JQuery</a></li></ul>
+</li></ul>
+<div style="clear: left;"></div>
+</div>
+<div id="file-nav-tab">
+              Table of Contents
+          </div>
+</div>
+<a xmlns:dbx="http://phpdoc.org/xsl/functions" name="top" class="anchor"></a><div id="file-description">
+<p xmlns:dbx="http://phpdoc.org/xsl/functions" class="short-description">Zend Framework</p>
+<div xmlns:dbx="http://phpdoc.org/xsl/functions" class="long-description"><p>LICENSE</p>
+
+<p>This source file is subject to the new BSD license that is bundled
+with this package in the file LICENSE.txt.
+It is also available through the world-wide-web at this URL:
+http://framework.zend.com/license/new-bsd
+If you did not receive a copy of the license and are unable to
+obtain it through the world-wide-web, please send an email
+to license@zend.com so we can send you a copy immediately.</p></div>
+</div>
+<dl class="file-info">
+<dt xmlns:dbx="http://phpdoc.org/xsl/functions">Category</dt>
+<dd xmlns:dbx="http://phpdoc.org/xsl/functions">ZendX
+         
+    </dd>
+<dt xmlns:dbx="http://phpdoc.org/xsl/functions">Copyright</dt>
+<dd xmlns:dbx="http://phpdoc.org/xsl/functions">Copyright (c) 2005-2010 Zend Technologies USA Inc. (http://www.zend.com)
+         
+    </dd>
+<dt xmlns:dbx="http://phpdoc.org/xsl/functions">License</dt>
+<dd xmlns:dbx="http://phpdoc.org/xsl/functions">
+<a href="../files/http://framework.zend.com/license/new-bsd">New BSD License</a>
+         
+    </dd>
+<dt xmlns:dbx="http://phpdoc.org/xsl/functions">Package</dt>
+<dd xmlns:dbx="http://phpdoc.org/xsl/functions">ZendX_JQuery
+         
+    </dd>
+<dt xmlns:dbx="http://phpdoc.org/xsl/functions">Subpackage</dt>
+<dd xmlns:dbx="http://phpdoc.org/xsl/functions">View
+         
+    </dd>
+<dt xmlns:dbx="http://phpdoc.org/xsl/functions">Version</dt>
+<dd xmlns:dbx="http://phpdoc.org/xsl/functions">$Id: JQuery.php 20184 2010-01-10 21:22:54Z freak $
+         
+    </dd>
+</dl>
+<a name="classes" class="anchor"></a><a xmlns:dbx="http://phpdoc.org/xsl/functions" id="\ZendX_JQuery_View_Helper_JQuery" class="anchor"></a><h2 xmlns:dbx="http://phpdoc.org/xsl/functions" class="class">\ZendX_JQuery_View_Helper_JQuery<div class="to-top"><a href="#top">jump to top</a></div>
+</h2>
+<div xmlns:dbx="http://phpdoc.org/xsl/functions" class="class">
+<small class="package"><b>Package: </b>ZendX\JQuery\View</small><p class="short-description">jQuery Helper.</p>
+<div class="long-description"><p>Functions as a stack for code and loads all jQuery dependencies.</p></div>
+<dl class="class-info">
+<dt>Parent(s)</dt>
+<dd>\Zend_View_Helper_Abstract</dd>
+<dt>Copyright</dt>
+<dd>Copyright (c) 2005-2010 Zend Technologies USA Inc. (http://www.zend.com)
+         
+    </dd>
+<dt>License</dt>
+<dd>
+<a href="../files/http://framework.zend.com/license/new-bsd">New BSD License</a>
+         
+    </dd>
+<dt>Uses</dt>
+<dd>\global\Zend_Json
+         
+    </dd>
+</dl>
+<h3>Properties</h3>
+<div>
+<a id="\ZendX_JQuery_View_Helper_JQuery::$noConflictMode" class="anchor"></a><div class="property private">
+<a href="#" class="gripper"><img src="../images/icons/arrow_right.png"><img src="../images/icons/arrow_down.png" style="display: none;"></a><code class="title"><img src="../images/icons/property.png" alt="Property"><img src="../images/icons/visibility_private.png" style="margin-right: 5px" alt="private"><span class="highlight">$noConflictMode</span> = false</code><div class="description">
+<span class="attribute">static</span><p class="short-description">jQuery no Conflict Mode</p>
+</div>
+<div class="code-tabs">
+<div class="long-description"></div>
+<strong>Default value</strong><code>false</code><strong>Details</strong><dl class="property-info">
+<dt>Type</dt>
+<dd>n/a</dd>
+<dt>See</dt>
+<dd>\global\http://docs.jquery.com/Using_jQuery_with_Other_Libraries
+         
+    </dd>
+<dt>Staticvar</dt>
+<dd>Boolean Status of noConflict Mode
+         
+    </dd>
+</dl>
+</div>
+<div class="clear"></div>
+</div>
+<a id="\ZendX_JQuery_View_Helper_JQuery::$view" class="anchor"></a><div class="property public">
+<a href="#" class="gripper"><img src="../images/icons/arrow_right.png"><img src="../images/icons/arrow_down.png" style="display: none;"></a><code class="title"><img src="../images/icons/property.png" alt="Property"><img src="../images/icons/visibility_public.png" style="margin-right: 5px" alt="public">\Zend_View_Interface <span class="highlight">$view</span> = </code><div class="description">
+<p class="short-description"></p></div>
+<div class="code-tabs">
+<div class="long-description"></div>
+<strong>Details</strong><dl class="property-info">
+<dt>Type</dt>
+<dd>\Zend_View_Interface</dd>
+</dl>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<h3>Methods</h3>
+<div>
+<a id="\ZendX_JQuery_View_Helper_JQuery::__call()" class="anchor"></a><div class="method public">
+<a href="#" class="gripper"><img src="../images/icons/arrow_right.png"><img src="../images/icons/arrow_down.png" style="display: none;"></a><code class="title"><img src="../images/icons/method.png" alt="method" title="method"><img src="../images/icons/visibility_public.png" style="margin-right: 5px" alt="public"><span class="highlight">__call</span><span class="nb-faded-text">(string $method, array $args)</span> : mixed</code><div class="description"><p class="short_description">Proxy to container methods</p></div>
+<div class="code-tabs">
+<div class="long-description"></div>
+<strong>Parameters</strong><table class="argument-info">
+<thead><tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr></thead>
+<tr>
+<th>$method</th>
+<td>string</td>
+<td><em></em></td>
+</tr>
+<tr>
+<th>$args</th>
+<td>array</td>
+<td><em></em></td>
+</tr>
+</table>
+<strong>Returns</strong><table class="argument-info">
+<thead><tr>
+<th>Type</th>
+<th>Description</th>
+</tr></thead>
+<tr>
+<td>mixed</td>
+<td></td>
+</tr>
+</table>
+<strong>Throws</strong><table class="argument-info">
+<thead><tr>
+<th>Exception</th>
+<th>Description</th>
+</tr></thead>
+<tr>
+<td>\Zend_View_Exception</td>
+<td><em>For invalid method calls</em></td>
+</tr>
+</table>
+</div>
+<div class="clear"></div>
+</div>
+<a id="\ZendX_JQuery_View_Helper_JQuery::__construct()" class="anchor"></a><div class="method public">
+<a href="#" class="gripper"><img src="../images/icons/arrow_right.png"><img src="../images/icons/arrow_down.png" style="display: none;"></a><code class="title"><img src="../images/icons/method.png" alt="method" title="method"><img src="../images/icons/visibility_public.png" style="margin-right: 5px" alt="public"><span class="highlight">__construct</span><span class="nb-faded-text">()</span> : void</code><div class="description"><p class="short_description">Initialize helper</p></div>
+<div class="code-tabs"><div class="long-description"><p>Retrieve container from registry or create new container and store in
+registry.</p></div></div>
+<div class="clear"></div>
+</div>
+<a id="\ZendX_JQuery_View_Helper_JQuery::disableNoConflictMode()" class="anchor"></a><div class="method public">
+<a href="#" class="gripper"><img src="../images/icons/arrow_right.png"><img src="../images/icons/arrow_down.png" style="display: none;"></a><code class="title"><img src="../images/icons/method.png" alt="method" title="method"><img src="../images/icons/visibility_public.png" style="margin-right: 5px" alt="public"><span class="highlight">disableNoConflictMode</span><span class="nb-faded-text">()</span> : void</code><div class="description">
+<span class="attribute">static</span><p class="short_description">Disable noConflict Mode of jQuery if this was previously enabled.</p>
+</div>
+<div class="code-tabs"><div class="long-description"></div></div>
+<div class="clear"></div>
+</div>
+<a id="\ZendX_JQuery_View_Helper_JQuery::enableNoConflictMode()" class="anchor"></a><div class="method public">
+<a href="#" class="gripper"><img src="../images/icons/arrow_right.png"><img src="../images/icons/arrow_down.png" style="display: none;"></a><code class="title"><img src="../images/icons/method.png" alt="method" title="method"><img src="../images/icons/visibility_public.png" style="margin-right: 5px" alt="public"><span class="highlight">enableNoConflictMode</span><span class="nb-faded-text">()</span> : void</code><div class="description">
+<span class="attribute">static</span><p class="short_description">Enable the jQuery internal noConflict Mode to work with
+other Javascript libraries.</p>
+</div>
+<div class="code-tabs">
+<div class="long-description"><p>Will setup jQuery in the variable
+$j instead of $ to overcome conflicts.</p></div>
+<strong>Details</strong><dl class="function-info">
+<dt>Link</dt>
+<dd>
+<a href="../files/http://docs.jquery.com/Using_jQuery_with_Other_Libraries">http://docs.jquery.com/Using_jQuery_with_Other_Libraries</a>
+         
+    </dd>
+</dl>
+</div>
+<div class="clear"></div>
+</div>
+<a id="\ZendX_JQuery_View_Helper_JQuery::getJQueryHandler()" class="anchor"></a><div class="method public">
+<a href="#" class="gripper"><img src="../images/icons/arrow_right.png"><img src="../images/icons/arrow_down.png" style="display: none;"></a><code class="title"><img src="../images/icons/method.png" alt="method" title="method"><img src="../images/icons/visibility_public.png" style="margin-right: 5px" alt="public"><span class="highlight">getJQueryHandler</span><span class="nb-faded-text">()</span> : String</code><div class="description">
+<span class="attribute">static</span><p class="short_description">Return current jQuery handler based on noConflict mode settings.</p>
+</div>
+<div class="code-tabs">
+<div class="long-description"></div>
+<strong>Returns</strong><table class="argument-info">
+<thead><tr>
+<th>Type</th>
+<th>Description</th>
+</tr></thead>
+<tr>
+<td>String</td>
+<td></td>
+</tr>
+</table>
+</div>
+<div class="clear"></div>
+</div>
+<a id="\ZendX_JQuery_View_Helper_JQuery::getNoConflictMode()" class="anchor"></a><div class="method public">
+<a href="#" class="gripper"><img src="../images/icons/arrow_right.png"><img src="../images/icons/arrow_down.png" style="display: none;"></a><code class="title"><img src="../images/icons/method.png" alt="method" title="method"><img src="../images/icons/visibility_public.png" style="margin-right: 5px" alt="public"><span class="highlight">getNoConflictMode</span><span class="nb-faded-text">()</span> : Boolean</code><div class="description">
+<span class="attribute">static</span><p class="short_description">Return current status of the jQuery no Conflict Mode</p>
+</div>
+<div class="code-tabs">
+<div class="long-description"></div>
+<strong>Returns</strong><table class="argument-info">
+<thead><tr>
+<th>Type</th>
+<th>Description</th>
+</tr></thead>
+<tr>
+<td>Boolean</td>
+<td></td>
+</tr>
+</table>
+</div>
+<div class="clear"></div>
+</div>
+<a id="\ZendX_JQuery_View_Helper_JQuery::jQuery()" class="anchor"></a><div class="method public">
+<a href="#" class="gripper"><img src="../images/icons/arrow_right.png"><img src="../images/icons/arrow_down.png" style="display: none;"></a><code class="title"><img src="../images/icons/method.png" alt="method" title="method"><img src="../images/icons/visibility_public.png" style="margin-right: 5px" alt="public"><span class="highlight">jQuery</span><span class="nb-faded-text">()</span> : <a href="../files/JQuery.View.Helper.JQuery.Container.html#%5CZendX_JQuery_View_Helper_JQuery_Container">\ZendX_JQuery_View_Helper_JQuery_Container</a></code><div class="description"><p class="short_description">Return jQuery View Helper class, to execute jQuery library related functions.</p></div>
+<div class="code-tabs">
+<div class="long-description"></div>
+<strong>Returns</strong><table class="argument-info">
+<thead><tr>
+<th>Type</th>
+<th>Description</th>
+</tr></thead>
+<tr>
+<td><a href="../files/JQuery.View.Helper.JQuery.Container.html#%5CZendX_JQuery_View_Helper_JQuery_Container">\ZendX_JQuery_View_Helper_JQuery_Container</a></td>
+<td></td>
+</tr>
+</table>
+</div>
+<div class="clear"></div>
+</div>
+<a id="\ZendX_JQuery_View_Helper_JQuery::setView()" class="anchor"></a><div class="method public">
+<a href="#" class="gripper"><img src="../images/icons/arrow_right.png"><img src="../images/icons/arrow_down.png" style="display: none;"></a><code class="title"><img src="../images/icons/method.png" alt="method" title="method"><img src="../images/icons/visibility_public.png" style="margin-right: 5px" alt="public"><span class="highlight">setView</span><span class="nb-faded-text">(\Zend_View_Interface $view)</span> : void</code><div class="description"><p class="short_description">Set view object</p></div>
+<div class="code-tabs">
+<div class="long-description"></div>
+<strong>Parameters</strong><table class="argument-info">
+<thead><tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr></thead>
+<tr>
+<th>$view</th>
+<td>\Zend_View_Interface</td>
+<td><em></em></td>
+</tr>
+</table>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<small xmlns="" class="footer">
+            Documentation was generated by
+            <a href="http://phpdoc.org">phpDocumentor
+                2.0.0a8</a>.
+        </small></body></html>

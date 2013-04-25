@@ -1,0 +1,14 @@
+# ZF start altijd in public folder
+# request uri is hoofdmap public folder
+# tussenoplossing ipv document root in vhost aan te passen
+
+SetEnv APPLICATION_ENV production
+
+RewriteEngine On
+RewriteRule !\.(js|gif|jpg|png|css|txt)$ public/index.php [L]
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ public/$1 [L]
+
+<IfModule mod_php5.c>
+php_value short_open_tag 1
+</IfModule>
